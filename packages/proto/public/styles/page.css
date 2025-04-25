@@ -1,0 +1,13 @@
+header {
+    color: white;
+    background-color: var(--color-NBAred);
+    }
+
+body{ 
+    color: #D3D3D3;
+    background-color: var(--color-NBAblue);
+}
+
+a {
+    color: var(--color-link);
+}

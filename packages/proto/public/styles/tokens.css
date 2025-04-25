@@ -1,0 +1,6 @@
+:root {
+    --color-NBAred: #C8102E;
+    --color-NBAblue: #1D428A;
+    --color-accent: #FFD700;
+    --color-link: var(--color-accent);
+}
