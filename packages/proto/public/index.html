@@ -8,40 +8,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Copse&family=Ultra&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="page">
   <header>
-    <h1 style="text-align: center;">NBA</h1>
+    <div class="header-box">
+      <h1>NBA</h1>
+      <img src="nba_logo.png" alt="NBA Logo" class="pic" width="50" height="100">
+    </div>
+    <nav class="header-box">
+      <svg class="icon">
+        <use href="/icons/basketball.svg#icon-season" />
+      </svg>
+      <a href="Season.html">Seasons</a>
+
+      <svg class="icon">
+        <use href="/icons/basketball.svg#icon-game" />
+      </svg>
+      <a href="Game.html">Games</a>
+
+      <svg class="icon">
+        <use href="/icons/basketball.svg#icon-ball" />
+      </svg>
+      <a href="Team.html">Teams</a>
+
+      <svg class="icon">
+        <use href="/icons/basketball.svg#icon-player" />
+      </svg>
+      <a href="Player.html">Players</a>
+
+      <svg class="icon">
+        <use href="/icons/basketball.svg#icon-boxscore" />
+      </svg>
+      <a href="boxscore.html">Box Scores</a>
+    </nav>
   </header>
 
-  <img src="All-NBA 040724.jpeg" style="display: block; margin: 0 auto;" width="750" height="400">
   <br>
+  <main>
+    <img src="All-NBA 040724.jpeg" class="pic" width="1125" height="600">
+  </main>
 
-  <div style="text-align: center;">
-    <svg class="icon">
-      <use href="/icons/basketball.svg#icon-season" />
-    </svg>
-    <a href="Season.html">Seasons</a>
-
-    <svg class="icon">
-      <use href="/icons/basketball.svg#icon-game" />
-    </svg>
-    <a href="Game.html">Games</a>
-
-    <svg class="icon">
-      <use href="/icons/basketball.svg#icon-ball" />
-    </svg>
-    <a href="Team.html">Teams</a>
-
-    <svg class="icon">
-      <use href="/icons/basketball.svg#icon-player" />
-    </svg>
-    <a href="Player.html">Players</a>
-
-    <svg class="icon">
-      <use href="/icons/basketball.svg#icon-boxscore" />
-    </svg>
-    <a href="boxscore.html">Box Scores</a>
-  </div>
   </body>
 </html>
 
